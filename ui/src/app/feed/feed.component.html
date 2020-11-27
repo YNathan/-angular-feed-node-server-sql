@@ -1,0 +1,6 @@
+<div class="search-results" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" [infiniteScrollUpDistance]="1.5" (scrolled)="onScrollDown()" [scrollWindow]="false">
+  <ng-container *ngFor="let item of posts">
+    <app-post [post]="item"></app-post>
+  </ng-container>
+</div>
+

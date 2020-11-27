@@ -1,0 +1,9 @@
+<div class="post-container">
+  <div class="upper-post-section">
+    <div class="uname-section">{{post.uname}}<div class="time-section">{{post.date | dateFromNow : 'date' }}</div></div>
+    <div class="title-section">{{post.title}}</div>
+  </div>
+  <div class="body-section">
+    <div *ngIf="post.kind === 'txt'">{{post.obj}}</div>
+  </div>
+</div>

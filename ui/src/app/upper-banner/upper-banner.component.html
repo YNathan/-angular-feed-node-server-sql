@@ -1,0 +1,10 @@
+<div *ngIf="currentUser" class="banner-section">
+  <img [routerLink]="['/users-manger']" src="/assets/brain.svg">
+  <img [routerLink]="['/users-manger']" src="/assets/manageUsers.png">
+  <img [routerLink]="['/home']" routerLinkActive="router-link-active" src="/assets/house.svg">
+  <div class="vertical-row"></div>
+  <div class="company-name">Brainer</div>
+
+  <input placeholder="Insert name or topic" value="">
+  <div class="username-section">{{currentUser.username}}</div>
+</div>

@@ -1,0 +1,22 @@
+.search-results {
+    height: 20rem;
+    overflow-y: scroll;
+  }
+ 
+  @media only screen and (max-height: 768px) {
+    .search-results {
+        height: 668px;
+        overflow-y: scroll;
+      }
+  }
+  @media only screen and (max-height: 1080px) {
+    .search-results {
+        height: 680px;
+        overflow-y: scroll;
+      }
+  }
+ 
+
+ ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-infix {
+        
+  }

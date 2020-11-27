@@ -1,0 +1,32 @@
+<div class="post-upload-section">
+ <input placeholder="title..." [(ngModel)]="title"> 
+  <textarea placeholder="write a brain..." value="" [(ngModel)]="textarea"></textarea>
+
+
+  <mat-form-field class="example-chip-list">
+      <mat-chip-list #chipList>
+        <mat-chip *ngFor="let topic of topics"  [selectable]="selectable" [removable]="removable" (removed)="remove(topic)" >
+          {{topic}}
+          <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+        </mat-chip>
+        <input  #topicInput placeholder="add topics..."  [formControl]="topicCtrl"
+          [matAutocomplete]="auto"
+          [matChipInputFor]="chipList"
+          [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+          [matChipInputAddOnBlur]="addOnBlur"
+          (matChipInputTokenEnd)="add($event)"
+          [(ngModel)]="userTopicPrefix">
+      </mat-chip-list>
+      <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+        <mat-option *ngFor="let topic of filteredTopics | async" [value]="topic">
+          {{topic}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+
+  <div class="button-section">
+    <section *ngIf="textarea?.length"> <button mat-raised-button color="#616770" (click)="uploadAPost()">post</button></section>
+    <section *ngIf="!textarea?.length"> <button mat-raised-button disabled>post</button></section>
+  </div>
+
+</div>

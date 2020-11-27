@@ -1,0 +1,17 @@
+{
+  "MySql": {
+    "host": "139.99.28.169",
+    "user": "root",
+    "password": "brbrbr123",
+    "database": "brainer"
+  },
+  "Server": {
+    "port": 5611
+  },
+  "Spreadsheet": {
+    "id": "1W9EK8bHkJgNLtKRlxnBlrw1smHPE5m0OJcR53aSPMbM"
+  },
+  "Credentials": {
+    "type": "service_account"
+  }
+}

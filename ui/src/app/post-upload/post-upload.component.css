@@ -1,0 +1,125 @@
+.post-upload-section{
+    background-color: white;
+    border : 1px #999A99 solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 155px;
+}
+
+.text-motivation-section{
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    color: #616770;
+    font-size: 12px;
+}
+
+.post-upload-section {
+    background-color: white;
+    border : 1px #999A99 solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 155px;
+    position: relative;
+}
+.post-upload-section input:nth-child(1) {
+  border: none;
+ 
+    width: 100%;
+  
+    box-sizing: border-box;
+}
+.post-upload-section textarea {
+    border: none;
+    width: 100%;
+    height: calc(100% - 80px);
+    box-sizing: border-box;
+}
+.post-upload-section textarea:focus {
+    border: none !important;
+}
+.post-upload-section button:nth-child(1) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right : 5px;
+    margin-bottom : 5px;
+  }
+  .post-upload-section button
+
+
+::-webkit-input-placeholder { /* Edge */
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    color: #616770;
+    font-size: 12px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    color: #616770;
+    font-size: 12px;
+  }
+  
+  ::placeholder {
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    color: #616770;
+    font-size: 1rem;
+    top: 50;
+    left: 50;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+
+
+  .example-chip-list {
+    width: 100%;
+  }
+  
+  ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0 0;
+}
+
+::ng-deep .mat-chip-list-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 !important;
+  margin-right: 100px !important;
+  
+  border-radius: 10px;
+  background-color: white;
+}
+ 
+
+::ng-deep .mat-form-field {
+  line-height: 1.75;
+ 
+}
+input{
+  border:none;
+  overflow:none;
+  outline:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  
+}
+textarea{
+  border:none;
+  overflow:none;
+  outline:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  
+}

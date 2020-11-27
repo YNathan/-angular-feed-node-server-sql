@@ -1,0 +1,69 @@
+.banner-section{
+    top: 0px;
+    width : 100%;
+    height : 42px;
+    background-color: #999A99; 
+    z-index: 2;
+}
+.banner-section img:nth-child(1){
+    height: 32px;
+    margin-top: 0.3%;
+    margin-left: 8%;
+}
+.banner-section img:nth-child(2){
+    height: 32px;
+    margin-top: 0.3%;
+    margin-left: 2.5%;
+}
+.banner-section img:nth-child(3){
+    height: 32px;
+    margin-top: 0.3%;
+    margin-left: 2.5%;
+}
+svg{
+    fill: white;
+}
+.vertical-row {
+    width: 3px;
+    background-color: white;
+    margin-left: 19%;
+    margin-top: 0.3%;
+    height: 36px;
+    top: 0;
+    position: absolute;
+}
+.company-name{
+    color: white;
+    top:0;
+    position: absolute;
+    margin-top: 0.6%;
+    margin-left: 21%;
+
+}
+input{
+    margin-top: 0.3%;
+    margin-left: 11%;
+    max-width: 42%;
+    width: 42%;
+    background-color: #e9ecef;
+}
+.username-section{
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    height: 27px;
+    line-height: 28px;
+    padding: 0 10px 1px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.3%;
+    margin-right: 0.3%;
+}

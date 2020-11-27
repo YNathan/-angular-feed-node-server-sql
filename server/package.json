@@ -1,0 +1,24 @@
+{
+  "name": "brainerserver",
+  "version": "1.0.0",
+  "description": "the nodejs server api's",
+  "main": "controller.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://YaacovNathan@bitbucket.org/brainersocial/brainerserver.git"
+  },
+  "author": "yaacov nathan",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/brainersocial/brainerserver#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.0",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7"
+  }
+}
